@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #3c5471;
+}
+
+header{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d0e14;
+}
+.pesquisar{
+    height: 42%;
+    width: 30vw;
+    background-color: #9a9a9a;
+    border-radius: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 8px;
+}
+
+.busca{
+    background-color: #9a9a9a;
+    font-style: italic;
+    font-size: 25px;
+    border: none;
+    border-radius: 1vh;
+    height: 90%;
+    flex-grow: 1;
+}
+.lupa{
+    height: 80%;
+
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    background-color: pink;
+}
+
+footer{
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
