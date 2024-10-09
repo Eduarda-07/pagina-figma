@@ -8,7 +8,6 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    
     background-color: #3c5471;
 }
 
@@ -27,27 +26,113 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-inline: 8px;
+    padding-inline: 1vw;
 }
 
 .busca{
     background-color: #9a9a9a;
     font-style: italic;
-    font-size: 25px;
+    font-size: 1vw;
     border: none;
     border-radius: 1vh;
     height: 90%;
     flex-grow: 1;
+    margin-left: 1vw;
 }
 .lupa{
     height: 80%;
 
 }
 
+.logo{
+    height: 42%;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 3vw;;
+}
+
+.texto1 h1{
+    font-style: italic;
+    font-size: 5vh;
+    color: white;
+}
+
+.perfil{
+    height: 42%;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1vw;
+}
+
+.imgP{
+    height: 8vh;
+}
+
+
 main{
     flex-grow: 1;
     display: flex;
-    background-color: pink;
+    
+}
+
+.conteudo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.filmes{
+    width: 50%;
+    display:flex;
+    justify-content: space-between;
+    
+    
+    padding-left: 3vw;
+    margin-top: 2vh;
+    
+}
+
+.texto2 h2{
+    font-style: italic;
+    font-size: 3vh;
+    color: white;
+}
+
+.filme1{
+    height: 15vw;
+    width: 10vw;
+    margin-top: 2vw;
+    margin-right: 3vw;
+    margin-bottom: 3vw;
+    
+}
+.filme2{
+    height: 15vw;
+    width: 10vw;
+    margin-top: 2vw;
+    margin-right: 3vw;
+    margin-bottom: 3vw; 
+    
+}
+
+.filme3{
+    height: 15vw;
+    width: 10vw;
+    margin-top: 2vw;
+    margin-right: 3vw;
+    margin-bottom: 3vw;
+    
+}
+
+.destaque{
+    width: 50%;
+    display:flex;
+    background-color: aqua;
+   
+    
 }
 
 footer{
