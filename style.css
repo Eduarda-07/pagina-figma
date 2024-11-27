@@ -30,6 +30,25 @@ header{
     /*padding-inline: 1vw;*/
 }
 
+.container--image{
+    width: 100%;
+    height: 50%;
+}
+
+.imagem1{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+   
+}
+
+.image--play{
+    position: relative;
+    left: 42%;
+    bottom: 60%;
+
+}
+
 .busca{
     background-color: #9a9a9a;
     font-style: italic;
@@ -249,12 +268,6 @@ main{
 
 }
 
-.imagem1{
-    width: 100%;
-    height: 50%;
-   
-}
-
 .catalogo h3{
     margin-top: 1vh;
     color: white;
@@ -278,5 +291,247 @@ main{
     margin-left: 1vw;
     font-size: 2vh;
     
+}
+
+footer{
+    display: none;
+}
+ @media (max-width: 960px){ 
+    header{
+        width: 100%;
+    }
+    main{
+        height: 100%;
+    }
+    .busca{
+        font-size: 3vw;
+    }
+    .logo{
+        padding-left: 2.5vw;
+    }
+    .perfil{
+        padding-left: 2vw;
+    }
+    .pesquisar{
+        width: 45vw;
+        margin-left: 9vw;
+        padding-left: 1vw;
+    }
+    .filmes{
+        padding-left: 2.5vw;
+    }
+    .catalogo{
+        margin-left: 10vw;
+        
+    }
+    .filme1 h4{
+        display: none;
+    }
+    .filme2 h4{
+        display: none;
+    }
+    .filme3 h4{
+        display: none;
+    }
+    .filme4 h4{
+        display: none;
+    }
+    .filme5 h4{
+        display: none;
+    }
+    .filme6 h4{
+        display: none;
+    }
+    .catalogo h5{
+        font-size: 20px;
+    }
+    .catalogo{
+        height: 75%;
+        margin-top: -4vh;
+    }
+    .catalogo  h4{
+        font-size: 1.5vh;
+    }
+    .destaque{
+        width: 60%;
+    
+    }
+    .conteudo{
+        width: 40%;
+    }
+    .filme1{
+        margin-right: 10vw;
+        margin-top: 2vh;
+    }
+    .filme1 img{
+        height: 22vh;
+        width: 20vw;
+    }
+    .filme1 h3{
+        font-size: 18px;
+        width: 18vw;
+    }
+    .filme2{
+         margin-top: 2vh;
+    }
+    .filme2 img{
+        height: 22vh;
+        width: 20vw;
+    }
+    .filme2 h3{
+        font-size: 18px;
+        width: 18vw;
+    }
+    .filme3{
+        margin-right: 10vw;
+    }
+    .filme3 img{
+        height: 22vh;
+        width: 20vw;
+    }
+    .filme3 h3{
+        font-size: 18px;
+        width: 18vw;
+    }
+    
+    .filme4 img{
+        height: 22vh;
+        width: 20vw;
+    }
+    .filme4 h3{
+        font-size: 17px;
+        width: 18vw;
+    }
+    .filme5{
+        margin-right: 10vw;
+    }
+    .filme5 img{
+        height: 22vh;
+        width: 20vw;
+    }
+    .filme5 h3{
+        font-size: 18px;
+        width: 18vw;
+    }
+    .filme6 img{
+        height: 22vh;
+        width: 20vw;
+    }
+    .filme6 h3{
+        font-size: 18px;
+        width: 18vw;
+    }
+    .image--play{
+        left: 40%
+    }
+} 
+
+@media (max-width: 640px){
+    .destaque {
+        display: none;
+    }
+    header{
+        width: 100%;
+    }
+    main{
+        height: 100%;
+        width: 100%;
+        padding-right: none;
+    }
+    .texto1 h1{
+        font-size: 4vh;
+    }
+    .texto2 h2{
+        font-size: 4vh;
+    }
+    .conteudo{
+        width: 100%;
+    }
+    .filmes{
+        padding-left: 2vw;
+        height: auto;
+        width: auto;
+    }
+    .filme1{
+        margin-right: 4vw;
+        margin-top: 2vh;
+        height: auto;
+        width: 26vw;
+        
+    }
+    .filme1 img{
+        height: 30vh;
+        width: 26vw;
+    }
+    .filme1 h3{
+        font-size: 15px;
+        width: 25vw;
+    }
+    .filme2{
+        margin-top: 3vh;
+        height: auto;
+        width: 26vw;
+        margin-right: 4vw;
+    }
+    .filme2 img{
+        height: 30vh;
+        width: 26vw;
+    }
+    .filme2 h3{
+        font-size: 15px;
+        width: 25vw;
+    }
+    .filme3 {
+        height: auto;
+        width: 26vw;
+        margin: none;
+    }
+    .filme3 img{
+        height: 30vh;
+        width: 26vw;
+    }
+    .filme3 h3{
+        font-size: 15px;
+        width: 25vw;
+    }
+    .filme4{
+        height: auto;
+        width: 26vw;
+        margin-right: 4vw;
+    }
+    .filme4 img{
+        height: 30vh;
+        width: 26vw;
+    }
+    .filme4 h3{
+        font-size: 15px;
+        width: 25vw;
+    }
+    .filme5{
+        margin-right: 4vw;
+        height: auto;
+        width: 26vw;
+    }
+    .filme5 img{
+        height: 30vh;
+        width: 26vw;
+    }
+    .filme5 h3{
+        font-size: 15px;
+        width: 23vw;
+    }
+    .filme6{
+        height: auto;
+        width: 26vw;
+    }
+    .filme6 img{
+        height: 30vh;
+        width: 26vw;
+    }
+    .filme6 h3{
+        font-size: 15px;
+        width: 25vw;
+    }
+ 
 }
 
